@@ -4,6 +4,7 @@ function btnClick(value){
  function clearScreen(){
     screen.value = "";
  } 
+ //find result
  function findResult(){
     var result = eval(screen.value);
     screen.value = result;
